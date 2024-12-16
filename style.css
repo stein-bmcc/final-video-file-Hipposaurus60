@@ -3,9 +3,7 @@
 /* ----------
 Basic Page Styling
 ---------- */
-html{
-  font-size: 100%;
-}
+
 body{
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
@@ -13,9 +11,34 @@ body{
   margin-right: auto;
   margin-left: auto;
   background-color: rgb(248, 235, 217);
+  text-align: left;
 }
+
+nav ul{ /* header */
+  list-style-type: none;
+  padding: 0; /* for the space of the sentence in front */
+  margin: 0; /* centers on the page */
+  background-color: rgb(48,60,86);
+  display: flex;  /* horizontally */
+  justify-content: center;  /* Centers items */
+  gap: 20px; 
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;  /* display items horizontally */
+  justify-content: center;  /* Centers items horizontally */
+  gap: 20px; 
+}
+
+html{
+  font-size: 100%;
+}
+
 h1,h2,h3,h4,h5,h6{
   font-family: "Arvo", serif;
+  text-align: center;
 }
 .author{
   font-family: "Arvo", serif;
@@ -38,8 +61,7 @@ a:visited{
   border-bottom: 1px solid #555;
 }
 /* NAVIGATION STYLING */
-.navlist li
-{
+.navlist li{
     display: inline; /* brings nav elements up next to each other */
     list-style-type: none; /* removes the bullet points */
     padding-right: 20px; /* spaces them out from each other. Adjust to suit your needs */
@@ -74,7 +96,7 @@ figure{
 }
 figcaption{
   font-size: .8rem;
-  text-align: right;
+  text-align: left;
 }
 
   /* Styling for video embeded with iframe */
