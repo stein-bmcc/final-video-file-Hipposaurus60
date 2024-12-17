@@ -3,46 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Template: Element</title>
+    <title>A Hero's Choice</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    
     <header>
-        <h1>Your Project Name</h1>
+        <h1 class="title" style="color: rgb(255, 255, 255);">A Hero's Choice</h1>
         <div class="description">
-            <p class="author">by YOUR_NAME</p>
+            <p class="author">by Natania Ma</p>
             <p>Final Project <br>
                 MMP 100 Fall 2024
             </p>
         </div>
+
+            <!-- Navigation -->
+        <nav>
+            <ul> 
+                <!-- this is link to restart -->
+                <li><a href="index.html" style="color: rgb(255, 255, 255);">&#8635; Start Over</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-        <p>Describe your project here. </p>
-        
         <figure>
             <video controls>
-                <source src="media/myVideoFile.mp4" type="video/mp4">
+                <source src="media/Final project video(Mp4).mp4" type="video/mp4">
             </video>
-            <figcaption><a href="https://www.pexels.com/video/a-man-typing-on-a-laptop-keyboard-5527787/">Video</a> by Tony Schnagl &copy; <a href="https://www.pexels.com/license/">Pexels License</a></figcaption>
-        </figure>
+            <figcaption>Video</a> by Natania Ma &copy;
 
-        <div class="instructions">
-            <h2>Instructions</h2>
-            <p></p>To use this template you will need to:</p>
-            <ul>
-                <li>Upload your video file to the media folder.</li>
-                <li>Change the src attribute in the source element. Also change the type if your video is not mp4</li>
-                <li>Change the figcaption content to fit your video. If you made it then give yourself credit.</li>
-                <li>Change all of the instances of YOUR_NAME in the <b>header</b> and <b>footer</b>.</li>
-                <li>Change the text in the h1 from <b>Your Project Name</b> to your project's name.</li>
-                <li>Delete these instructions</li>
-            </ul>
-            <p>You can also change the CSS to update the styling if you like (not required).</p>
+        <p>Once you click the <strong>"START"</strong> button, you will step into a world where every decision you make shapes the fate of a ruined kingdom. A powerful dragon has set fire to the land, and choosing the kingdom's fate wisely is up to you. It's up to you to decide the path and beware, there is no turning back.</p>
+
+        <div class="prompt">
+        <p>Will you stand up and face the dragon, or will you run away to fight another day? Each choice leads to a new outcome, and only one path will lead you to victory. </p>
         </div>
 
+        <ul>
+            <li>
+                <a href="pagetwo.html">
+                <img src="images/Start button.png" alt="pagetwo">
+                </a> <!-- <a> is anchor tag -->
+            </li>
+        </ul>
+
     </main>
+
     <footer>
-        <p>Video content &copy; copyright YOUR_NAME</p>
+        <p>Video and images content &copy; copyright 2024 Natania Ma</p>
+        <p>If you have any questions, feel free to <a href="https://mail.google.com">email me</a>.</p>
     </footer>
 </body>
 </html>
